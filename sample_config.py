@@ -13,8 +13,8 @@ class Config(object):
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     AUTONAME = os.environ.get("AUTONAME", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("APP_ID", 18734981))
+    API_HASH = os.environ.get("API_HASH") or 0e88a144af021c41897a8e826eaf96aa
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
